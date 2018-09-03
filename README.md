@@ -2,14 +2,14 @@
 
 This is the repository for finder-java.
 
-[![Build Status](https://travis-ci.org/hyxf/finder-cli.svg?branch=master)](https://travis-ci.org/hyxf/finder-cli)
-[![Software License](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)](https://github.com/hyxf/finder-cli/blob/master/LICENSE.txt)
+[![Build Status](https://travis-ci.org/hyxf/finder-java.svg?branch=master)](https://travis-ci.org/hyxf/finder-java)
+[![Software License](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)](https://github.com/hyxf/finder-java/blob/master/LICENSE.txt)
 
 It is a tool for 'LAN file Share', Based on web server
 
 ### Download
 
-Download [the latest JAR](https://github.com/hyxf/finder-cli/releases/latest)
+Download [the latest JAR](https://github.com/hyxf/finder-java/releases/latest)
 
 ### Use
 
@@ -50,7 +50,7 @@ Username:hyxf , Password:admin
 
 Open your browser
 
-![alt tag](https://github.com/hyxf/finder-cli/blob/master/screenshots/running.png)
+![alt tag](https://github.com/hyxf/finder-java/blob/master/screenshots/running.png)
 
 ### How to build
 
@@ -110,7 +110,7 @@ Serving HTTP on 10.144.33.40 port 8000 (http://10.144.33.40:8000/) ...
 
 Open your browser [ http://127.0.0.1:8000 ]
 
-![alt tag](https://github.com/hyxf/finder-cli/blob/master/screenshots/python.png)
+![alt tag](https://github.com/hyxf/finder-java/blob/master/screenshots/python.png)
 
 ----------------------
 
