@@ -92,22 +92,6 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 
 ~~~
 
-Or use gutils
-
-> support show Local IP
->
-> support show qrcode [Mac]
->
-> support file upload
-
-~~~bash
-~ pip3 install gutils
-~ cd /path/to/share
-~ gutils share
-Serving HTTP on 10.144.33.40 port 8000 (http://10.144.33.40:8000/) ...
-
-~~~
-
 Open your browser [ http://127.0.0.1:8000 ]
 
 ![alt tag](https://github.com/hyxf/finder-java/blob/master/screenshots/python.png)
