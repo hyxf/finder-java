@@ -1,0 +1,47 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "net.sf.proguard:proguard-gradle:6.0.3"
+        classpath "gradle.plugin.nl.javadude.gradle.plugins:license-gradle-plugin:0.14.0"
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    apply plugin: 'java'
+    apply plugin: 'license'
+
+    group = 'com.gutils.cli'
+    version 'v1.0'
+
+    sourceCompatibility = "1.8"
+    targetCompatibility = "1.8"
+
+    license {
+        header rootProject.file("finder/src/templates/apache2.0-header.txt")
+        include "**/*.java"
+        strictCheck true
+
+        ext.year = Calendar.getInstance().get(Calendar.YEAR)
+        ext.hyxf = 'hyxf'
+        ext.hyxfEmail = '1162584980@qq.com'
+    }
+
+    // license plugin automatically fires these tasks, disable them and run them during releases
+    gradle.startParameter.excludedTaskNames += "licenseMain"
+    gradle.startParameter.excludedTaskNames += "licenseTest"
+
+    dependencies {
+
+    }
+}
+
