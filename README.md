@@ -1,6 +1,6 @@
 ### finder-java
 
-This is the repository for finder-java.
+This is the repository for finder-java.s
 
 [![Build Status](https://travis-ci.org/hyxf/finder-java.svg?branch=master)](https://travis-ci.org/hyxf/finder-java)
 [![Software License](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)](https://github.com/hyxf/finder-java/blob/master/LICENSE.txt)
